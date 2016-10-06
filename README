@@ -1,0 +1,14 @@
+This is a webserver to extract tweets for:
+1. US Open
+2. Game of Thrones
+3. US Presedential Elections
+4. Syrian Civil War
+5. Apple Event on September 7
+
+NOTE : The server won't run unless you update the consumer secrets and access tokens in config/twitter.js with your twitter app secrets and tokens
+
+In order to start the server run server.js file using Node
+The scripts.js file can be updated to change what topics you are looking for.
+Once you are done collecting tweets, you should run the extractData.js file to remove unneccesary fields, and convert the data files into proper JSON format. The results are stored in finalData folder.
+
+
