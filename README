@@ -9,6 +9,7 @@ NOTE : The server won't run unless you update the consumer secrets and access to
 
 In order to start the server run server.js file using Node
 The scripts.js file can be updated to change what topics you are looking for.
-Once you are done collecting tweets, you should run the extractData.js file to remove unneccesary fields, and convert the data files into proper JSON format. The results are stored in finalData folder.
+Once you are done collecting tweets, you should run the extractData.js file to remove unneccesary fields, and convert the data files into proper JSON format. 
+The results are stored in finalData folder.
 
 
